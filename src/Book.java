@@ -1,8 +1,8 @@
 public class Book {
     //используемые поля
-    String nameBook;
-    Autor autorBook;
-    int yearBook;
+    private String nameBook;
+    private Autor autorBook;
+    private int yearBook;
 
     //rонструктор
     public Book(String nameBook, Autor autorBook, int yearBook) {
